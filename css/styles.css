@@ -212,7 +212,7 @@ main {
 .footer {
   background-color: #0b1a2b;
   color: white;
-  padding: 48px 302px 64px 116px;
+  padding: 48px 200px 64px 175px;
 }
 
 .footer-container {
@@ -258,7 +258,7 @@ main {
   text-decoration: none;
 }
 
-.footer-column-item-chanche {
+.footer-column-item:hover {
   color: #f2994a;
 }
 
@@ -267,6 +267,12 @@ main {
   font-size: 14px;
   line-height: 150%;
   color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.footer-column-text:hover {
+  color: #f2994a;
 }
 
 .logo-text {
@@ -278,6 +284,7 @@ main {
   align-items: center;
   justify-content: flex-start;
   gap: 10px;
+  text-decoration: none;
 }
 
 .logo-line {
@@ -285,4 +292,12 @@ main {
   width: 45px;
   height: 0px;
   transform: rotate(-90deg);
+}
+
+.logo {
+  cursor: pointer;
+}
+
+.logo:hover {
+  color: #f2994a;
 }
