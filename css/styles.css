@@ -22,6 +22,7 @@ img {
 
 body {
   margin: 0;
+  font-family: "Roboto", sans-serif;
 }
 
 .header {
@@ -42,7 +43,6 @@ body {
 }
 
 .header-items {
-  font-family: "Basis Grotesque Pro", sans-serif;
   font-size: 14px;
   line-height: 150%;
   color: #fff;
@@ -70,7 +70,6 @@ main {
 }
 
 .news-article-way {
-  font-family: "Basis Grotesque Pro", sans-serif;
   font-size: 14px;
   line-height: 150%;
   margin-left: 30px;
@@ -83,7 +82,6 @@ main {
 }
 
 .title-of-article {
-  font-family: "Basis Grotesque Pro", sans-serif;
   font-weight: 700;
   font-size: 30px;
   line-height: 130%;
@@ -94,7 +92,6 @@ main {
 }
 
 .date-of-article {
-  font-family: "Basis Grotesque Pro", sans-serif;
   font-size: 14px;
   line-height: 150%;
   color: #50739f;
@@ -103,7 +100,6 @@ main {
 }
 
 .author-of-article {
-  font-family: "Basis Grotesque Pro", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 130%;
@@ -113,7 +109,6 @@ main {
 }
 
 .text-of-article {
-  font-family: "Basis Grotesque Pro", sans-serif;
   font-size: 16px;
   line-height: 130%;
   color: #02234d;
@@ -141,7 +136,6 @@ main {
 }
 
 .more-news-title {
-  font-family: "Basis Grotesque Pro", sans-serif;
   font-weight: 700;
   font-size: 30px;
   line-height: 130%;
@@ -160,15 +154,14 @@ main {
 }
 
 .more-news-link {
-  display: contents; /* дозволяє дочірнім елементам заповнити grid */
+  display: contents;
 }
 
 .more-news-item img {
-  grid-column: 1; /* Залишається у першому стовпчику */
+  grid-column: 1;
 }
 
 .subtitle {
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 130%;
@@ -179,7 +172,6 @@ main {
 }
 
 .more-news-text {
-  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 13px;
   color: rgba(9, 9, 32, 0.7);
@@ -192,11 +184,10 @@ main {
   grid-column: 2;
   display: flex;
   flex-direction: column;
-  gap: 0; /* без відступів між блоками */
+  gap: 0;
 }
 
 .more-news-author {
-  font-family: "Roboto", sans-serif;
   font-size: 13px;
   color: rgba(9, 9, 32, 0.7);
   grid-column: 2;
@@ -204,7 +195,6 @@ main {
 }
 
 .more-news-date {
-  font-family: "Roboto", sans-serif;
   font-size: 13px;
   color: #b4b7c1;
 }
@@ -250,7 +240,6 @@ main {
 }
 
 .footer-column-item {
-  font-family: "Basis Grotesque Pro", sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 150%;
@@ -263,7 +252,6 @@ main {
 }
 
 .footer-column-text {
-  font-family: "Basis Grotesque Pro", sans-serif;
   font-size: 14px;
   line-height: 150%;
   color: #fff;
