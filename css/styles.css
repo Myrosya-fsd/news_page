@@ -1,0 +1,288 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+img {
+  object-fit: cover;
+  display: block;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1440px;
+}
+
+body {
+  margin: 0;
+}
+
+.header {
+  background-color: #0b1a2b;
+  padding: 24px 115px 21px 180px;
+}
+
+.header-nav {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+}
+
+.header-list {
+  display: flex;
+  justify-content: flex-end;
+  gap: 30px;
+}
+
+.header-items {
+  font-family: "Basis Grotesque Pro", sans-serif;
+  font-size: 14px;
+  line-height: 150%;
+  color: #fff;
+  text-decoration: none;
+}
+
+.wrapper {
+  color: #f2994a;
+}
+
+main {
+  background-color: #d2e2f8;
+  padding: 40px 115px;
+  display: grid;
+  grid-template-columns: 670px 470px; /* ширини обох секцій */
+  column-gap: 30px; /* відступ між колонками */
+  justify-content: center; /* вирівнювання по центру */
+}
+
+.news-article {
+  background-color: #fff;
+  padding: 30px 0px;
+  width: 670px;
+  height: 1496px;
+}
+
+.news-article-way {
+  font-family: "Basis Grotesque Pro", sans-serif;
+  font-size: 14px;
+  line-height: 150%;
+  margin-left: 30px;
+  margin-bottom: 24px;
+  color: #a7b2c0;
+}
+
+.news-article-way-changes {
+  color: black;
+}
+
+.title-of-article {
+  font-family: "Basis Grotesque Pro", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 130%;
+  color: #02234d;
+  width: 610px;
+  margin-left: 30px;
+  margin-bottom: 16px;
+}
+
+.date-of-article {
+  font-family: "Basis Grotesque Pro", sans-serif;
+  font-size: 14px;
+  line-height: 150%;
+  color: #50739f;
+  margin-left: 30px;
+  margin-bottom: 16px;
+}
+
+.author-of-article {
+  font-family: "Basis Grotesque Pro", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 130%;
+  color: #02234d;
+  margin-left: 30px;
+  margin-bottom: 24px;
+}
+
+.text-of-article {
+  font-family: "Basis Grotesque Pro", sans-serif;
+  font-size: 16px;
+  line-height: 130%;
+  color: #02234d;
+  width: 610px;
+  margin-left: 30px;
+  margin-bottom: 24px;
+}
+
+.new-card {
+  padding-bottom: 24px;
+}
+
+.more-news {
+  width: 470px;
+  background-color: #fff;
+  padding: 30px;
+}
+
+.more-news ul {
+  display: grid;
+  row-gap: 20px; /* Відступ між li */
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.more-news-title {
+  font-family: "Basis Grotesque Pro", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 130%;
+  color: #02234d;
+  margin-bottom: 25px;
+}
+
+.more-news-item {
+  width: 410px;
+  height: 140px;
+  display: grid;
+  grid-template-columns: 140px 1fr;
+  column-gap: 25px;
+  align-items: start;
+  border-bottom: 1px solid #ccc;
+}
+
+.more-news-link {
+  display: contents; /* дозволяє дочірнім елементам заповнити grid */
+}
+
+.more-news-item img {
+  grid-column: 1; /* Залишається у першому стовпчику */
+}
+
+.subtitle {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 130%;
+  color: #1a1a1a;
+  width: 245px;
+  grid-column: 2;
+  margin: 0 0 10px;
+}
+
+.more-news-text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  color: rgba(9, 9, 32, 0.7);
+  width: 245px;
+  grid-column: 2;
+  margin: 0 0 10px;
+}
+
+.text-content {
+  grid-column: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 0; /* без відступів між блоками */
+}
+
+.more-news-author {
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  color: rgba(9, 9, 32, 0.7);
+  grid-column: 2;
+  margin: 0;
+}
+
+.more-news-date {
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  color: #b4b7c1;
+}
+
+.footer {
+  background-color: #0b1a2b;
+  color: white;
+  padding: 48px 302px 64px 116px;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: auto 131px auto 180px auto;
+  align-items: center;
+}
+
+.footer-column {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.first-column {
+  grid-column: 1;
+}
+
+.second-column {
+  grid-column: 3;
+}
+
+.third-column {
+  grid-column: 5;
+  display: flex;
+  justify-content: center;
+}
+
+.spacer-79 {
+  height: 79px;
+}
+
+.spacer-82 {
+  height: 82px;
+}
+
+.footer-column-item {
+  font-family: "Basis Grotesque Pro", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-column-item-chanche {
+  color: #f2994a;
+}
+
+.footer-column-text {
+  font-family: "Basis Grotesque Pro", sans-serif;
+  font-size: 14px;
+  line-height: 150%;
+  color: #fff;
+}
+
+.logo-text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 48px;
+  line-height: 130%;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.logo-line {
+  border: 0.88px solid #f2994a;
+  width: 45px;
+  height: 0px;
+  transform: rotate(-90deg);
+}
